@@ -1,0 +1,146 @@
+body {
+  background: #344e41;
+  color: #dad7cd;
+  font-family: "Roboto Flex", sans-serif;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
+}
+
+.contenedor {
+  display: flex;
+  max-height: 100vh;
+  max-width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.anuncio {
+  border-radius: 0.3rem;
+  max-width: 100%;
+}
+
+.hero {
+  align-items: center;
+  background: url("/images/background.png") center;
+  background-size: cover;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: center;
+  margin-top: 1em;
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+  padding: 0.4rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px #333;
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 2px;
+  line-height: 2.6rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  /* text-align: center; */
+}
+
+.info p {
+  font-size: 1.4rem;
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+}
+
+span {
+  font-size: 0.7rem;
+  text-align: justify;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+ul li {
+  border-radius: 0.3rem;
+  border: 1px solid #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  list-style: none;
+  margin-top: 10px;
+  width: 100%;
+}
+
+li {
+  background: #588157;
+  padding: 5px;
+  text-align: center;
+}
+
+.botones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+a:link,
+a:active,
+a:visited {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 50%;
+}
+
+@media (min-width: 767.98px) {
+  body {
+    background: #588157;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor {
+    background: #344E41;
+    border: 1px solid #A3B18A;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+  }
+
+  img{
+    width: 30%;
+  }
+}
